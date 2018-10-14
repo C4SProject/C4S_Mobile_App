@@ -14,7 +14,7 @@ export default class Login extends Component {
 		      <View style={styles.logoContainer}>
 		        <View style={styles.logoContainer}>
 		        	<View style={styles.logo}>
-		        		<Text>logo</Text>	
+		        		<Text style={styles.titleLogo}>C4S</Text>	
 		        	</View>
 		        </View>
 		        <View style={styles.infoContainer}>
@@ -63,12 +63,13 @@ const styles = StyleSheet.create({
     height: 56,
     backgroundColor: 'red',
   },
-  title: {
-    fontSize: 18,
+  titleLogo: {
+    fontSize: 32,
     textAlign: 'center',
     justifyContent: 'center',
-    color: 'black',
-    margin: 5,
+    color: 'white',
+    margin: 10,
+    fontWeight: 'bold'
   },
   infoContainer: {
   	position: 'absolute',
