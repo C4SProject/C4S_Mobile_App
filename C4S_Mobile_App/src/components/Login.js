@@ -35,7 +35,7 @@ export default class Login extends Component {
 			        	autoCorrect={false}
 			        	ref={"txtPassword"} 
 		        	/>
-		        	<TouchableOpacity style={styles.buttonContainer}>
+		        	<TouchableOpacity onPress={() => this.props.navigation.navigate('Dashboard')} style={styles.buttonContainer}>
 		        		<Text style={styles.buttonTitle}>Login</Text>	
 		        	</TouchableOpacity>
 		        </View>
