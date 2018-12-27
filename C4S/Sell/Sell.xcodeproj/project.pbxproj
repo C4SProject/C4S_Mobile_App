@@ -14,6 +14,7 @@
 		471B1C5121D48233000EB720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471B1C5021D48233000EB720 /* Assets.xcassets */; };
 		471B1C5421D48233000EB720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471B1C5221D48233000EB720 /* LaunchScreen.storyboard */; };
 		471B1C5721D48233000EB720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 471B1C5621D48233000EB720 /* main.m */; };
+		471B1C5F21D4BB35000EB720 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471B1C5E21D4BB35000EB720 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		471B1C5321D48233000EB720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		471B1C5521D48233000EB720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471B1C5621D48233000EB720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		471B1C5D21D4BB35000EB720 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		471B1C5E21D4BB35000EB720 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				471B1C4421D48231000EB720 /* AppDelegate.h */,
 				471B1C4521D48231000EB720 /* AppDelegate.m */,
+				471B1C5D21D4BB35000EB720 /* LoginViewController.h */,
+				471B1C5E21D4BB35000EB720 /* LoginViewController.m */,
 				471B1C4721D48231000EB720 /* ViewController.h */,
 				471B1C4821D48231000EB720 /* ViewController.m */,
 				471B1C4A21D48231000EB720 /* Main.storyboard */,
@@ -148,6 +153,7 @@
 				471B1C4921D48231000EB720 /* ViewController.m in Sources */,
 				471B1C5721D48233000EB720 /* main.m in Sources */,
 				471B1C4621D48231000EB720 /* AppDelegate.m in Sources */,
+				471B1C5F21D4BB35000EB720 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +296,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W895M6R6L;
 				INFOPLIST_FILE = Sell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amigo.Sell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,13 +314,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W895M6R6L;
 				INFOPLIST_FILE = Sell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amigo.Sell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
