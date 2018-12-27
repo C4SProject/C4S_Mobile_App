@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Globals.h
 //  Sell
 //
 //  Created by Arnlee Vizcayno on 27/12/2018.
@@ -8,8 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
-@end
-
+#import "Utilities.h"
+#import "LoginViewController.h"

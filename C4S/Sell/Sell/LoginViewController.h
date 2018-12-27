@@ -6,8 +6,10 @@
 //  Copyright © 2018 Arnlee Vizcayno. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Globals.h"
 
 @interface LoginViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *versionLabel;
 
 @end

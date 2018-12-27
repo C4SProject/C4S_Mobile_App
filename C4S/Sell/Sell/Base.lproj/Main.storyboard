@@ -194,6 +194,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="u3C-xc-fNK"/>
+                    <connections>
+                        <outlet property="versionLabel" destination="E0r-Be-LS6" id="u8Q-5v-61Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
